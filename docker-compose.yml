@@ -27,7 +27,7 @@ telegraf:
 #  mem_limit: 384m
   ports:
     # Expose Statsd UDP server to local host
-    - "8125:8125/udp"
+    - "9000:9000/udp"
   links:
     - influxdb
   volumes:
